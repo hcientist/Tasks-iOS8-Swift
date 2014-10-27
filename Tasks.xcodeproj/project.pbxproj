@@ -13,6 +13,8 @@
 		E3EAD64D19F9553300E9555F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3EAD64C19F9553300E9555F /* Images.xcassets */; };
 		E3EAD65019F9553300E9555F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3EAD64E19F9553300E9555F /* LaunchScreen.xib */; };
 		E3EAD65C19F9553300E9555F /* TasksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EAD65B19F9553300E9555F /* TasksTests.swift */; };
+		E3EAD66619FE00F100E9555F /* NewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EAD66519FE00F100E9555F /* NewTaskViewController.swift */; };
+		E3EAD66819FE010500E9555F /* TaskViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3EAD66719FE010500E9555F /* TaskViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		E3EAD65519F9553300E9555F /* TasksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3EAD65A19F9553300E9555F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3EAD65B19F9553300E9555F /* TasksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksTests.swift; sourceTree = "<group>"; };
+		E3EAD66519FE00F100E9555F /* NewTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTaskViewController.swift; sourceTree = "<group>"; };
+		E3EAD66719FE010500E9555F /* TaskViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 				E3EAD64519F9553200E9555F /* AppDelegate.swift */,
 				E3EAD64719F9553200E9555F /* ViewController.swift */,
 				E3EAD64919F9553200E9555F /* Main.storyboard */,
+				E3EAD66519FE00F100E9555F /* NewTaskViewController.swift */,
+				E3EAD66719FE010500E9555F /* TaskViewViewController.swift */,
 				E3EAD64C19F9553300E9555F /* Images.xcassets */,
 				E3EAD64E19F9553300E9555F /* LaunchScreen.xib */,
 				E3EAD64319F9553200E9555F /* Supporting Files */,
@@ -212,7 +218,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3EAD66819FE010500E9555F /* TaskViewViewController.swift in Sources */,
 				E3EAD64819F9553200E9555F /* ViewController.swift in Sources */,
+				E3EAD66619FE00F100E9555F /* NewTaskViewController.swift in Sources */,
 				E3EAD64619F9553200E9555F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +415,7 @@
 				E3EAD66119F9553300E9555F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3EAD66219F9553300E9555F /* Build configuration list for PBXNativeTarget "TasksTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				E3EAD66419F9553300E9555F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
